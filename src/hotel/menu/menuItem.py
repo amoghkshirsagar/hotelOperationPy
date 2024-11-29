@@ -1,11 +1,16 @@
 from hotel.menu.foodItem import FoodItem
-import os
+from utils import getLogger
+from logging import Logger
+
+logger: Logger = getLogger("hotel.menuItem")
 
 class MenuItem(FoodItem):
     _price = ""
     def __init__(self, name, description, price):
+        logger.debug("init MenuItem: entry")
         super().__init__(name, description)
         self._price = price
+        logger.debug("init MenuItem: exit")
 
     def __str__(self):
         return self.getName() + ": " + str(self._price)
@@ -20,6 +25,7 @@ class MenuItem(FoodItem):
         self._price = price
     
     def create():
+        logger.info("Creating MenuItem")
         name =  input("Enter food item name: ")
         description = input("Enter food item description: ")
         price = input("Enter price: ")

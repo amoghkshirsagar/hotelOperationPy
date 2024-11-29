@@ -1,0 +1,21 @@
+
+20241128 11:47:59.880 -     INFO:                  UI - Pressed button 
+20241128 11:47:59.881 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241128 11:48:10.571 -    DEBUG:      hotel.menuItem - init FoodItem 
+20241128 11:48:10.572 -    DEBUG:      hotel.menuItem - init MenuItem 
+20241128 11:48:10.572 -     INFO:                  UI - pizza: ef 
+20241128 11:50:00.566 -     INFO:                  UI - Pressed button 
+20241128 11:50:00.566 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241128 11:50:14.996 -    DEBUG:      hotel.foodItem - init FoodItem 
+20241128 11:50:14.996 -    DEBUG:      hotel.menuItem - init MenuItem 
+20241128 11:50:14.996 -     INFO:                  UI - pizza: 13 
+20241128 11:51:24.867 -     INFO:                  UI - Pressed button 
+20241128 11:51:24.867 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241128 11:51:33.961 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241128 11:51:33.961 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241128 11:51:33.961 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241128 11:51:33.961 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241128 11:51:33.961 -     INFO:                  UI - Pizza: 23 
+20241128 21:19:16.087 -    DEBUG:          status-bar - Add StatusBar 
+20241128 21:21:17.387 -    DEBUG:          status-bar - Add StatusBar 
+20241128 21:23:21.579 -    DEBUG:          status-bar - Add StatusBar 
