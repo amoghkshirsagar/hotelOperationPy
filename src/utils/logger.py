@@ -9,7 +9,7 @@ def getLogger(name, level = logging.DEBUG, filename = f"logs/hotel-apps") -> log
         force=True,
         handlers=[
             logging.FileHandler(filename),
-            logging.StreamHandler()
+            # logging.StreamHandler()
         ])
     logger = logging.getLogger(name)
     # Setting the threshold of logger to DEBUG

@@ -25,12 +25,13 @@ class MenuCard:
         for menuItem in self._menuItems:
             print(repr(menuItem))
             print("---------------------------------------------")
+        choice = input("Press enter to exit:")
 
 
     def menuScreen(self):
         isCont = True
         while isCont:
-            os.system('cls')
+            os.system('clear')
             print("---------------------------------------------")
             print("__              Menu Screen              __")
             print("---------------------------------------------")
