@@ -1,4 +1,4 @@
-from hotel.menu.menuItem import MenuItem            
+from hotel.menu.menuItem import MenuItem       
 import os
 
 
@@ -15,6 +15,9 @@ class MenuCard:
     def addMenuItem(self, menuItem):
         self._menuItems.append(menuItem)
 
+    def removeMenuItem(self, menuItem):
+        self._menuItems.remove(menuItem)
+
     
     def create() -> 'MenuCard':
         if MenuCard._menuCard is None:
@@ -27,6 +30,8 @@ class MenuCard:
             print("---------------------------------------------")
         choice = input("Press enter to exit:")
 
+    def getMenuItems(self):
+        return self._menuItems
 
     def menuScreen(self):
         isCont = True

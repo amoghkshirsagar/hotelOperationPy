@@ -1,7 +1,9 @@
-from utils import getLogger
-from logging import Logger
-from customtkinter import CTkFrame, CTkFrame, CTk
 import customtkinter as ctk
+from customtkinter import CTk, CTkFrame, CTkButton
+from utils import getLogger
+import logging
+from logging import Logger
+import tkinter as tk
 
 logger: Logger = getLogger("status-bar")
 

@@ -24,9 +24,10 @@ class MenuItem(FoodItem):
     def setPrice(self, price):
         self._price = price
     
-    def create():
+    def create(name, description, price):
         logger.info("Creating MenuItem")
-        name =  input("Enter food item name: ")
-        description = input("Enter food item description: ")
-        price = input("Enter price: ")
+        if name == None or description == None or price == None:
+            name =  input("Enter food item name: ")
+            description = input("Enter food item description: ")
+            price = input("Enter price:")  
         return MenuItem(name, description, price)

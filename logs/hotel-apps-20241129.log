@@ -1,0 +1,493 @@
+20241129 11:42:22.391 -    DEBUG:         app-content - Add AppContent 
+20241129 11:42:22.412 -    DEBUG:          status-bar - Add StatusBar 
+20241129 11:50:01.859 -    DEBUG:         app-content - Add AppContent 
+20241129 11:50:01.868 -    DEBUG:         app-options - Add AppOptions 
+20241129 11:50:01.881 -    DEBUG:          status-bar - Add StatusBar 
+20241129 11:51:52.278 -    DEBUG:         app-content - Add AppContent 
+20241129 11:51:52.287 -    DEBUG:         app-options - Add AppOptions 
+20241129 11:51:52.300 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:32:22.559 -    DEBUG:         app-content - Add AppContent 
+20241129 18:32:22.569 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:32:22.581 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:35:26.342 -    DEBUG:         app-content - Add AppContent 
+20241129 18:35:26.351 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:35:26.363 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:35:27.076 -    DEBUG:         app-content - Add AppContent 
+20241129 18:35:27.086 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:35:27.098 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:35:27.863 -    DEBUG:         app-content - Add AppContent 
+20241129 18:35:27.872 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:35:27.885 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:36:16.844 -    DEBUG:         app-content - Add AppContent 
+20241129 18:36:16.853 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:36:16.855 -    DEBUG:         app-options - Menu Options 
+20241129 18:36:16.867 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:36:39.677 -    DEBUG:         app-content - Add AppContent 
+20241129 18:36:39.686 -    DEBUG:         app-options - Add AppOptions 
+20241129 18:36:39.688 -    DEBUG:         app-options - Menu Options 
+20241129 18:36:39.700 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:38:04.513 -    DEBUG:         app-content - Add AppContent 
+20241129 18:38:04.534 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:41:31.777 -    DEBUG:         app-content - Add AppContent 
+20241129 18:41:53.860 -    DEBUG:         app-content - Add AppContent 
+20241129 18:41:53.881 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:42:15.985 -    DEBUG:         app-content - Add AppContent 
+20241129 18:42:16.009 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:42:33.874 -    DEBUG:         app-content - Add AppContent 
+20241129 18:42:33.894 -    DEBUG:          status-bar - Add StatusBar 
+20241129 18:56:36.158 -    DEBUG:         app-content - Add AppContent 
+20241129 18:56:36.178 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:15:45.302 -    DEBUG:         app-content - Add AppContent 
+20241129 19:15:45.322 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:16:38.906 -    DEBUG:         app-content - Add AppContent 
+20241129 19:16:38.925 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:17:46.306 -    DEBUG:         app-content - Add AppContent 
+20241129 19:17:46.325 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:18:21.213 -    DEBUG:         app-content - Add AppContent 
+20241129 19:18:21.233 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:19:04.695 -    DEBUG:         app-content - Add AppContent 
+20241129 19:19:04.714 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:19:53.026 -    DEBUG:         app-content - Add AppContent 
+20241129 19:19:53.047 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:20:20.731 -    DEBUG:         app-content - Add AppContent 
+20241129 19:20:20.751 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:20:43.615 -    DEBUG:         app-content - Add AppContent 
+20241129 19:20:43.635 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:22:28.762 -    DEBUG:         app-content - Add AppContent 
+20241129 19:22:28.782 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:23:28.846 -    DEBUG:         app-content - Add AppContent 
+20241129 19:23:28.865 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:23:43.552 -    DEBUG:         app-content - Add AppContent 
+20241129 19:23:43.572 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:24:17.248 -    DEBUG:         app-content - Add AppContent 
+20241129 19:24:17.268 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:30:18.348 -    DEBUG:         app-content - Add AppContent 
+20241129 19:30:18.368 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:31:29.172 -    DEBUG:         app-content - Add AppContent 
+20241129 19:31:29.191 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:31:31.537 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 19:31:32.526 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 19:35:57.062 -    DEBUG:         app-content - Add AppContent 
+20241129 19:35:57.083 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:35:59.937 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 19:36:10.506 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 19:36:10.506 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 19:36:10.506 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 19:36:10.506 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 19:43:14.715 -    DEBUG:         app-content - Add AppContent 
+20241129 19:43:14.735 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:46:57.436 -    DEBUG:         app-content - Add AppContent 
+20241129 19:46:57.456 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:48:43.786 -    DEBUG:         app-content - Add AppContent 
+20241129 19:48:43.805 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:51:58.749 -    DEBUG:         app-content - Add AppContent 
+20241129 19:51:58.769 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:56:06.232 -    DEBUG:         app-content - Add AppContent 
+20241129 19:56:06.253 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:56:56.734 -    DEBUG:         app-content - Add AppContent 
+20241129 19:56:56.753 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:57:15.791 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 19:57:15.791 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 19:57:15.791 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 19:57:15.791 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 19:57:15.791 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 19:57:43.634 -    DEBUG:         app-content - Add AppContent 
+20241129 19:57:43.654 -    DEBUG:          status-bar - Add StatusBar 
+20241129 19:57:55.873 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 19:57:55.873 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 19:57:55.873 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 19:57:55.873 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 19:57:55.873 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:22:44.272 -    DEBUG:         app-content - Add AppContent 
+20241129 20:22:44.292 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:22:58.990 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:24:44.389 -    DEBUG:         app-content - Add AppContent 
+20241129 20:24:44.410 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:25:02.440 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:25:02.440 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:25:02.440 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:25:02.440 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:25:02.440 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:25:24.223 -    DEBUG:         app-content - Add AppContent 
+20241129 20:25:24.243 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:25:45.871 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:25:45.871 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:25:45.871 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:25:45.871 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:25:45.871 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:26:27.863 -    DEBUG:         app-content - Add AppContent 
+20241129 20:26:27.883 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:26:43.422 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:26:43.422 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:26:43.422 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:26:43.422 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:26:43.422 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:28:25.024 -    DEBUG:         app-content - Add AppContent 
+20241129 20:28:25.044 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:28:34.800 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:28:34.800 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:28:34.801 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:28:34.801 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:28:34.801 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:30:55.894 -    DEBUG:         app-content - Add AppContent 
+20241129 20:30:55.914 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:31:06.849 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:31:06.849 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:31:06.849 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:31:06.849 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:31:06.849 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:33:04.863 -    DEBUG:         app-content - Add AppContent 
+20241129 20:33:04.883 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:33:14.305 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:33:14.306 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:33:14.306 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:33:14.306 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:33:14.306 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:35:37.839 -    DEBUG:         app-content - Add AppContent 
+20241129 20:35:37.859 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:35:48.364 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:35:48.364 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:35:48.364 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:35:48.364 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:35:48.364 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:35:53.694 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:35:53.694 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:35:53.694 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:35:53.694 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:35:53.694 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:35:54.544 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:35:54.544 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:35:54.545 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:35:54.545 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:35:54.545 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:35:59.477 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:35:59.477 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:35:59.477 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:35:59.477 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:35:59.477 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:36:56.609 -    DEBUG:         app-content - Add AppContent 
+20241129 20:36:56.629 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:37:07.483 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:07.483 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:07.483 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:07.483 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:07.483 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:10.467 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:10.467 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:10.467 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:10.467 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:10.467 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:17.341 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:17.341 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:17.341 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:17.341 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:17.341 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:23.114 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:23.114 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:23.114 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:23.114 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:23.114 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:26.967 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:26.968 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:26.968 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:26.968 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:26.968 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:27.983 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:27.984 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:27.984 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:27.984 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:27.984 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:37:28.949 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:37:28.950 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:37:28.950 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:37:28.950 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:37:28.950 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:38:56.148 -    DEBUG:         app-content - Add AppContent 
+20241129 20:38:56.168 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:39:06.800 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:39:06.800 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:39:06.801 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:39:06.801 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:39:06.801 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:39:18.205 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:39:18.205 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:39:18.205 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:39:18.205 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:39:18.205 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:39:24.358 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:39:24.358 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:39:24.358 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:39:24.358 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:39:24.358 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:40:50.521 -    DEBUG:         app-content - Add AppContent 
+20241129 20:40:50.541 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:40:56.659 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:40:56.659 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:40:56.659 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:40:56.659 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:40:56.659 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:41:02.575 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:41:02.575 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:41:02.575 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:41:02.575 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:41:02.575 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:42:48.739 -    DEBUG:         app-content - Add AppContent 
+20241129 20:42:48.759 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:42:59.725 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:42:59.725 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:42:59.725 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:42:59.725 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:42:59.725 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:42:59.978 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:42:59.979 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:42:59.979 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:42:59.979 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:42:59.979 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:17.310 -    DEBUG:         app-content - Add AppContent 
+20241129 20:51:17.330 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:51:24.883 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:24.883 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:24.883 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:24.883 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:24.883 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:34.658 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:34.658 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:34.658 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:34.658 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:34.658 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:35.858 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:35.858 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:35.858 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:35.858 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:35.858 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:36.246 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:36.246 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:36.246 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:36.246 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:36.246 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:36.532 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:36.532 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:36.532 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:36.532 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:36.532 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:36.826 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:36.826 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:36.826 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:36.826 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:36.826 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:37.637 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:37.637 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:37.637 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:37.637 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:37.637 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:38.216 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:38.216 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:38.216 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:38.216 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:38.216 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:51:38.597 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:51:38.597 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:51:38.597 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:51:38.597 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:51:38.597 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:52:26.273 -    DEBUG:         app-content - Add AppContent 
+20241129 20:52:26.293 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:52:33.257 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:52:33.257 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:52:33.258 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:52:33.258 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:52:33.258 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:52:50.931 -    DEBUG:         app-content - Add AppContent 
+20241129 20:52:50.951 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:52:59.199 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:52:59.199 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:52:59.199 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:52:59.199 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:52:59.199 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:54:07.021 -    DEBUG:         app-content - Add AppContent 
+20241129 20:54:07.041 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:54:18.354 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:54:18.354 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:54:18.354 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:54:18.354 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:54:18.354 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:54:26.572 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:54:26.572 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:54:26.572 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:54:26.572 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:54:26.572 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:54:57.961 -    DEBUG:         app-content - Add AppContent 
+20241129 20:54:57.981 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:55:15.199 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:15.200 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:15.200 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:15.200 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:15.200 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:15.433 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:15.433 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:15.433 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:15.433 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:15.433 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:15.630 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:15.630 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:15.630 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:15.630 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:15.630 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:15.813 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:15.813 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:15.813 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:15.813 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:15.813 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.014 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.014 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.014 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.014 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.014 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.187 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.187 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.187 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.187 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.187 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.386 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.386 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.386 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.386 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.386 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.575 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.575 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.575 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.575 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.575 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.769 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.769 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.769 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.769 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.769 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:16.975 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:16.975 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:16.975 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:16.975 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:16.975 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:17.210 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:17.210 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:17.210 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:17.210 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:17.210 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:17.359 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:17.359 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:17.359 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:17.359 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:17.359 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:17.613 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:17.613 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:17.613 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:17.613 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:17.613 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:22.516 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:22.516 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:22.516 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:22.516 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:22.516 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:22.845 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:22.845 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:22.845 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:22.845 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:22.845 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:23.040 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:23.040 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:23.040 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:23.040 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:23.040 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:23.419 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:23.419 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:23.419 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:23.419 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:23.419 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:23.793 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:23.793 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:23.793 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:23.793 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:23.793 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:23.914 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:23.914 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:23.914 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:23.914 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:23.914 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:24.111 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:24.112 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:24.112 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:24.112 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:24.112 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:55:32.648 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 20:55:32.648 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 20:55:32.648 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 20:55:32.648 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 20:55:32.648 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 20:57:47.164 -    DEBUG:         app-content - Add AppContent 
+20241129 20:57:47.183 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:59:01.892 -    DEBUG:         app-content - Add AppContent 
+20241129 20:59:01.912 -    DEBUG:          status-bar - Add StatusBar 
+20241129 20:59:47.838 -    DEBUG:         app-content - Add AppContent 
+20241129 20:59:47.858 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:00:17.631 -    DEBUG:         app-content - Add AppContent 
+20241129 21:00:17.660 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:00:47.689 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:00:47.689 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:00:47.689 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:00:47.689 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:00:47.689 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:00:55.710 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:00:55.710 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:00:55.710 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:00:55.710 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:00:55.710 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:01:02.402 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:01:02.402 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:01:02.402 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:01:02.402 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:01:02.402 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:01:07.986 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:01:07.986 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:01:07.986 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:01:07.986 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:01:07.986 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:01:14.460 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:01:14.460 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:01:14.461 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:01:14.461 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:01:14.461 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:01:24.049 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:01:24.049 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:01:24.049 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:01:24.049 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:01:24.049 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:02:05.222 -    DEBUG:         app-content - Add AppContent 
+20241129 21:02:05.243 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:02:46.026 -    DEBUG:         app-content - Add AppContent 
+20241129 21:02:46.046 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:04:58.059 -    DEBUG:         app-content - Add AppContent 
+20241129 21:04:58.078 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:07:34.812 -    DEBUG:         app-content - Add AppContent 
+20241129 21:07:34.831 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:08:19.786 -    DEBUG:         app-content - Add AppContent 
+20241129 21:08:19.806 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:09:45.674 -    DEBUG:         app-content - Add AppContent 
+20241129 21:09:45.693 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:11:24.556 -    DEBUG:         app-content - Add AppContent 
+20241129 21:11:24.576 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:16:33.295 -    DEBUG:         app-content - Add AppContent 
+20241129 21:16:33.315 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:16:48.482 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:16:48.482 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:16:48.482 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:16:48.482 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:16:48.482 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
+20241129 21:24:05.889 -    DEBUG:         app-content - Add AppContent 
+20241129 21:24:05.909 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:44:25.870 -    DEBUG:         app-content - Add AppContent 
+20241129 21:44:25.890 -    DEBUG:          status-bar - Add StatusBar 
+20241129 21:44:35.138 -     INFO:      hotel.menuItem - Creating MenuItem 
+20241129 21:44:35.138 -    DEBUG:      hotel.menuItem - init MenuItem: entry 
+20241129 21:44:35.138 -    DEBUG:      hotel.foodItem - init FoodItem: entry 
+20241129 21:44:35.138 -    DEBUG:      hotel.foodItem - init FoodItem: exit 
+20241129 21:44:35.138 -    DEBUG:      hotel.menuItem - init MenuItem: exit 
