@@ -13,6 +13,8 @@ class MenuCard:
         return "Menu Card: " + str(self._menuItems)
     
     def addMenuItem(self, menuItem):
+        menuItem: MenuItem = menuItem
+        menuItem.setId(len(self._menuItems) + 1)
         self._menuItems.append(menuItem)
 
     def removeMenuItem(self, menuItem):
@@ -32,6 +34,12 @@ class MenuCard:
 
     def getMenuItems(self):
         return self._menuItems
+
+    def showMenuCard(table):
+        menuCard: MenuCard = MenuCard.create()
+        menuItems = menuCard.getMenuItems()
+        for menuItem in menuItems:
+            table.add_row(menuItem.getMenuItemRow())
 
     def menuScreen(self):
         isCont = True

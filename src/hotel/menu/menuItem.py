@@ -6,7 +6,8 @@ logger: Logger = getLogger("hotel.menuItem")
 
 class MenuItem(FoodItem):
     _price = ""
-    def __init__(self, name, description, price):
+    _id = 0
+    def __init__(self,  name, description, price):
         logger.debug("init MenuItem: entry")
         super().__init__(name, description)
         self._price = price
@@ -21,6 +22,18 @@ class MenuItem(FoodItem):
     def getPrice(self):
         return self._price
 
+    def getDescription(self):
+        return self._description
+    
+    def getName(self):
+        return self._name
+
+    def getId(self):
+        return self._id
+
+    def setId(self, id):
+        self._id = id
+        
     def setPrice(self, price):
         self._price = price
     
@@ -31,3 +44,6 @@ class MenuItem(FoodItem):
             description = input("Enter food item description: ")
             price = input("Enter price:")  
         return MenuItem(name, description, price)
+    
+    def getMenuItemRow(self):
+        return [self.getId(), self.getName(), self.getDescription(), self.getPrice()]

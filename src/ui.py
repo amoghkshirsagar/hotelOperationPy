@@ -12,7 +12,7 @@ logger: Logger = getLogger("UI", logging.INFO)
 
 def buildAppUi():
     app: CTk = ctk.CTk()
-    app.geometry("800x600")
+    app.geometry("900x600")
     app.columnconfigure(0, weight=1)
     app.rowconfigure(0, weight=1)
 
