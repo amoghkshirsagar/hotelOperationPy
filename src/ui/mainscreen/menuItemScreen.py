@@ -33,8 +33,15 @@ class MenuScreen:
             self.price = ctk.CTkEntry(menuScreen, placeholder_text="Price")
             self.price.grid(row=3, column=1, sticky="ew", padx=20, pady=20)
 
-            button1: CTkButton = ctk.CTkButton(menuScreen, text="Add Menu Item", command=self.addMenuItem)
+            btnRow = ctk.CTkFrame(menuScreen, fg_color="#003166")
+            btnRow.grid(row=4, column=1, sticky="ew", padx=20, pady=5)
+            btnRow.columnconfigure(1, weight=1)
+
+            button1: CTkButton = ctk.CTkButton(btnRow, text="Add Menu Item", command=self.addMenuItem)
             button1.grid(row=4, column=1, sticky="ew", padx=20, pady=20)
+
+            button1: CTkButton = ctk.CTkButton(btnRow, text="Clear Entry Box", command=self.clearEntryBox)
+            button1.grid(row=4, column=0, sticky="ew", padx=20, pady=20)
         
             self.tableFrame: CTkScrollableFrame = CTkScrollableFrame(menuScreen, height=400, corner_radius=0, fg_color="transparent")
             self.tableFrame.grid(row=6, column=1, sticky="ew", padx=20, pady=20)
@@ -52,7 +59,10 @@ class MenuScreen:
         logger.info(f"price {price}")
         menuItem = MenuItem.create(name, description, price)
         menuCard.addMenuItem(menuItem)
+        self.clearEntryBox()
+        self.table.add_row(menuItem.getMenuItemRow())
+
+    def clearEntryBox(self):
         self.name.delete(0, ctk.END)
         self.description.delete(0, ctk.END)
         self.price.delete(0, ctk.END)
-        MenuCard.showMenuCard(self.table)

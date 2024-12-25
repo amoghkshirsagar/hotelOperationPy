@@ -34,7 +34,20 @@ class MenuCard:
 
     def getMenuItems(self):
         return self._menuItems
+    
+    def getMenuItem(Id):
+        menuCard: MenuCard = MenuCard.create()
+        for menuItem in menuCard._menuItems:
+            if menuItem.getId() == int(Id):
+                return menuItem
+        return None
 
+    def getMenuItemsRowData(self):
+        menuItemsData = []
+        for menuItem in self._menuItems:
+            menuItemsData.append(menuItem.getMenuItemRow())
+        return menuItemsData
+    
     def showMenuCard(table):
         menuCard: MenuCard = MenuCard.create()
         menuItems = menuCard.getMenuItems()
