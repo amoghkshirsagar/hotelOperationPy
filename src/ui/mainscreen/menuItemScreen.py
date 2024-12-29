@@ -4,16 +4,20 @@ from customtkinter import CTk, CTkFrame, CTkButton, CTkLabel, CTkScrollableFrame
 from utils import getLogger
 import customtkinter as ctk
 import tkinter as tk
+import json
+import os
 from CTkTable import CTkTable
 
 from hotel.menu.menuItem import MenuItem
 from hotel.menu.menuCard import MenuCard
 
 menuCard: MenuCard = MenuCard.create()
+
 logger = getLogger("MenuScreen", logging.INFO)
 
 class MenuScreen:
     def __init__(self, appContent: CTkFrame):
+        MenuCard.readMenuCard()
         self.appContent = appContent
     def menuItemScreen(self):
             menuScreen: CTkFrame = ctk. CTkFrame(self.appContent, fg_color="#233040")
@@ -37,11 +41,14 @@ class MenuScreen:
             btnRow.grid(row=4, column=1, sticky="ew", padx=20, pady=5)
             btnRow.columnconfigure(1, weight=1)
 
-            button1: CTkButton = ctk.CTkButton(btnRow, text="Add Menu Item", command=self.addMenuItem)
-            button1.grid(row=4, column=1, sticky="ew", padx=20, pady=20)
+            addMenuItemsBtn: CTkButton = ctk.CTkButton(btnRow, text="Add Menu Item", command=self.addMenuItem)
+            addMenuItemsBtn.grid(row=4, column=1, sticky="ew", padx=20, pady=20)
 
-            button1: CTkButton = ctk.CTkButton(btnRow, text="Clear Entry Box", command=self.clearEntryBox)
-            button1.grid(row=4, column=0, sticky="ew", padx=20, pady=20)
+            clearEntryBoxBtn: CTkButton = ctk.CTkButton(btnRow, text="Clear Entry Box", command=self.clearEntryBox)
+            clearEntryBoxBtn.grid(row=4, column=0, sticky="ew", padx=20, pady=20)
+
+            saveMenuCardBtn: CTkButton = ctk.CTkButton(btnRow, text="Save Menu Card", command=self.writeToTheJsonFile)
+            saveMenuCardBtn.grid(row=4, column=2, sticky="ew", padx=20, pady=20)
         
             self.tableFrame: CTkScrollableFrame = CTkScrollableFrame(menuScreen, height=400, corner_radius=0, fg_color="transparent")
             self.tableFrame.grid(row=6, column=1, sticky="ew", padx=20, pady=20)
@@ -61,8 +68,15 @@ class MenuScreen:
         menuCard.addMenuItem(menuItem)
         self.clearEntryBox()
         self.table.add_row(menuItem.getMenuItemRow())
+        logger.info("added menu item")
+
 
     def clearEntryBox(self):
         self.name.delete(0, ctk.END)
         self.description.delete(0, ctk.END)
         self.price.delete(0, ctk.END)
+        logger.info("cleared entry box")
+    
+    def writeToTheJsonFile(self):
+        MenuCard.writeMenuCard()
+        logger.info("saved menu card")

@@ -1,7 +1,11 @@
 from hotel.menu.menuItem import MenuItem       
 import os
+import json
+from utils import getLogger
+from logging import Logger
+from utils.fileUtils import writeJson, readJson
 
-
+menuCardLocation = "menuCard.json"
 
 class MenuCard:
     _menuCard = None
@@ -48,6 +52,12 @@ class MenuCard:
             menuItemsData.append(menuItem.getMenuItemRow())
         return menuItemsData
     
+    def getMenuItemsInJsonFormat(self):
+        menuItemsJsonData = []
+        for menuItem in self._menuItems:
+            menuItemsJsonData.append(menuItem.getMenuItemInJsonFormat())
+        return menuItemsJsonData
+
     def showMenuCard(table):
         menuCard: MenuCard = MenuCard.create()
         menuItems = menuCard.getMenuItems()
@@ -84,3 +94,14 @@ class MenuCard:
                         print("Invalid choice")
                     else:
                         print("You selected: " + str(self._menuItems[int(choice)-1]))
+
+    def writeMenuCard():
+        menuItemsJsonData = MenuCard._menuCard.getMenuItemsInJsonFormat()
+        writeJson(menuItemsJsonData, menuCardLocation)
+
+                        
+    def readMenuCard():
+        menuCardContent = readJson(menuCardLocation)
+        menuCard: MenuCard = MenuCard.create()
+        for menuItemContent in menuCardContent:
+            menuCard.addMenuItem(MenuItem.create(menuItemContent['name'], menuItemContent['description'], menuItemContent['price']))

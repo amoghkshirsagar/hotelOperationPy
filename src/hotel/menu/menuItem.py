@@ -45,5 +45,13 @@ class MenuItem(FoodItem):
             price = input("Enter price:")  
         return MenuItem(name, description, price)
     
+    def getMenuItemInJsonFormat(self):
+        return {
+            "id": self.getId(),
+            "name": self.getName(),
+            "description": self.getDescription(),
+            "price": self.getPrice()
+        }
+
     def getMenuItemRow(self):
         return [self.getId(), self.getName(), self.getDescription(), self.getPrice()]

@@ -89,15 +89,13 @@ class Orders:
     def activeOrder():
         for order in Orders._orders:
             if order == Orders._activeOrder:
-                return order
+                return order._orderNumber
+            
+    def getActiveOrder():
+        return Orders._activeOrder
 
     def setActiveOrder(orderNumber):
         logger.info(f"Setting active order to {orderNumber}")
         for order in Orders._orders:
             if order._orderNumber == int(orderNumber):
                 Orders._activeOrder = order
-                return
-        
-        logger.info(f"No order found with number {orderNumber}")
-        Orders._activeOrder = None
-        

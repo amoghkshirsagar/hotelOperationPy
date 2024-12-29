@@ -60,14 +60,14 @@ class OrderScreen:
         self.orderValues = [['SrNo','name', 'description', 'price']]
         self.orderTable: CTkTable = CTkTable(self.orderTableFrame, values=self.orderValues, corner_radius=0)
         self.orderTable.grid(row=0, column=1, sticky="ew", padx=20, pady=20)
-        Order.showOrderItems(Order, self.orderTable)
+        self.showActiveOrderList()
 
         # Row 4 - Menu Table
         self.menuTableFrame: CTkScrollableFrame = CTkScrollableFrame(orderScreen, corner_radius=0, fg_color="transparent")
         self.menuTableFrame.grid(row=3, column=1, sticky="ew", padx=20, pady=20)
         self.menuTableFrame.columnconfigure(1, weight=1)
 
-        self.menuValues = [['Sr.No', 'name', 'description', 'price', 'Add to Order', 'Remove from Order']]
+        self.menuValues = [['Sr.No', 'name', 'description', 'price']]
         self.menuTable: CTkTable = CTkTable(self.menuTableFrame, values=self.menuValues, corner_radius=0)
         self.menuTable.grid(row=0, column=1, sticky="ew", padx=20, pady=20)
         self.menuTable.bind("<Button-1>", self.tableAction)
@@ -92,19 +92,26 @@ class OrderScreen:
         logger.debug(event)
 
     def getActiveOrderLabel(self):
-        return "Active Order: " + str(Orders.activeOrder()._orderNumber)
+        return "Active Order: " + str(Orders.activeOrder())
     
     def setActiveOrder(self):
         ordernumber = self.activeOrder.get()
         Orders.setActiveOrder(ordernumber)
         self.activeOrderLabel.set(self.getActiveOrderLabel())
+        self.showActiveOrderList()
+
+    def showActiveOrderList(self):
+        activeOrderToShow = Orders.getActiveOrder()
+        activeOrderToShow.showOrderItems(self.orderTable)
+        if activeOrderToShow == None:
+            Order.showOrderItems(activeOrderToShow, self.orderTable)
 
     def createOrderItem(self):
         Id = self.menuItemId.get()
         quantity = self.menuItemQuantity.get()
         menuItem: MenuItem = MenuCard.getMenuItem(Id)
         orderItem: OrderItem = OrderItem.createOrderItem(menuItem, quantity)
-        order: Order = Orders.activeOrder()
+        order: Order = Orders.getActiveOrder()
         order.addOrderItem(orderItem)
         self.orderTable.add_row(orderItem.getOrderItemRow())
 
@@ -112,6 +119,7 @@ class OrderScreen:
     def createOrder(self):
         self.order: Order = Orders.createOrder()
         self.activeOrderLabel.set(self.getActiveOrderLabel())
+        self.showActiveOrderList()
         
     def showMenu(self):
         menuCard: MenuCard = MenuCard.create()
