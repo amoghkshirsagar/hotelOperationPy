@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from customtkinter import CTk, CTkFrame, CTkButton
+from customtkinter import CTk
 from utils import getLogger
 import logging
 from logging import Logger
