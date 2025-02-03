@@ -30,6 +30,8 @@ def renderTable(parent, rows, tableOptions = {
         colCount += 1
 
     __renderRows(tableFrame=tableFrame, rows=rows)
+def actionFunction(actionScript):
+    eval(actionScript)
 
 def __renderRows(tableFrame, rows):
     rowCount = 0
@@ -47,6 +49,7 @@ def __renderRows(tableFrame, rows):
                     row: CTkLabel = ctk.CTkLabel(tableFrame, fg_color="#003166", text=value)
                     row.grid(row=rowCount, column=colCount, sticky="ew", padx=5, pady=3)
                 else:
-                    row: CTkButton = ctk.CTkButton(tableFrame, text=value['name'], width=value['width'])
-                    row.grid(row=rowCount, column=colCount, sticky="e", pady=3)
+                    actionFn = value['action']
+                    row: CTkButton = ctk.CTkButton(tableFrame, text=value['name'], width=value['width'], command=lambda id = value['id'], qty = value['qty']: actionFn(id,qty))
+                    row.grid(row=rowCount, column=colCount, sticky="ew", pady=3)
                 colCount += 1

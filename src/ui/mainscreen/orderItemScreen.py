@@ -14,6 +14,7 @@ logger: Logger = getLogger("Order-screen")
 
 menuCard: MenuCard = MenuCard.create()
 orders = Orders.readAllOrders()
+Orders.setActiveOrder(len(Orders._orders))
 class OrderScreen:
     def __init__(self, appContent: CTkFrame):
         self.appContent = appContent
@@ -58,20 +59,16 @@ class OrderScreen:
         createOrderBtn: CTkButton = ctk.CTkButton(createOrderRow, text="Create Order", command=self.createOrder)
         createOrderBtn.grid(row=1, column=1, sticky="e", padx=20)
 
-        # # Row 3 - Order table
-        # self.orderTableFrame: CTkScrollableFrame = CTkScrollableFrame(orderScreen, corner_radius=0, fg_color="transparent")
-        # self.orderTableFrame.grid(row=2, column=1, sticky="ew", padx=20, pady=20)
-        # self.orderTableFrame.columnconfigure(1, weight=1)
+        # Row 3 - Active Order Table
         order: Order = Orders.getActiveOrder()
         tableOptions = {
             'rowGrid': 2
         }
         renderTable(self.orderScreen, order.getOrderItemsInArray(), tableOptions)
 
-        # self.orderValues = [['SrNo','name', 'description', 'price']]
-        # self.orderTable: CTkTable = CTkTable(self.orderTableFrame, values=self.orderValues, corner_radius=0)
-        # self.orderTable.grid(row=0, column=1, sticky="ew", padx=20, pady=20)
-
+        # # Row 4 - Menu Table
+        renderTable(self.orderScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), {'rowGrid': 4 })
+        
         # Row 5 - Menu Item Choice
         menuChoicesRow = ctk.CTkFrame(self.orderScreen, fg_color="#003166")
         menuChoicesRow.grid(row=3, column=1, sticky="ew", padx=20, pady=5)
@@ -89,9 +86,6 @@ class OrderScreen:
         saveAllOrdersBtn: CTkButton = ctk.CTkButton(menuChoicesRow, text="Save All Orders", command=self.writeAllOrdersToJson)
         saveAllOrdersBtn.grid(row=1, column=3, sticky="ew", padx=20)
 
-        # # Row 4 - Menu Table
-        renderTable(self.orderScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), {'rowGrid': 4 })
-
     def tableAction(self, event):
         logger.debug("tableAction: entry")
         logger.debug(event)
@@ -103,6 +97,7 @@ class OrderScreen:
         ordernumber = self.activeOrder.get()
         Orders.setActiveOrder(ordernumber)
         self.activeOrderLabel.set(self.getActiveOrderLabel())
+        self.orderItemScreen()
 
     def createOrderItem(self):
         Id = self.menuItemId.get()
@@ -111,12 +106,13 @@ class OrderScreen:
         orderItem: OrderItem = OrderItem.createOrderItem(menuItem, quantity)
         order: Order = Orders.getActiveOrder()
         order.addOrderItem(orderItem)
-        # self.orderTable.add_row(orderItem.getOrderItemRow())
+        self.orderItemScreen()
 
     
     def createOrder(self):
         self.order: Order = Orders.createOrder()
         self.activeOrderLabel.set(self.getActiveOrderLabel())
+        self.orderItemScreen()
     
     def writeAllOrdersToJson(self):
         Orders.writeAllOrders()

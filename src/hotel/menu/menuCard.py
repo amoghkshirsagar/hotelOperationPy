@@ -5,7 +5,7 @@ from utils import getLogger
 from logging import Logger
 from utils.fileUtils import writeJson, readJson
 
-menuCardLocation = "menuCard.json"
+menuCardLocation = "data/menuCard.json"
 
 class MenuCard:
     _menuCard = None
@@ -85,7 +85,7 @@ class MenuCard:
     @staticmethod
     def writeMenuCard():
         menuItemsJsonData = MenuCard._menuCard.getMenuItemsInJsonFormat()
-        writeJson(menuItemsJsonData, menuCardLocation)
+        writeJson( menuCardLocation, menuItemsJsonData)
 
     @staticmethod
     def readMenuCard():

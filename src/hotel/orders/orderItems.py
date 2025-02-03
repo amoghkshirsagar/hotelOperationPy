@@ -5,7 +5,17 @@ from logging import Logger
 from utils.fileUtils import writeJson, readJson
 
 logger: Logger = getLogger("hotel.orderItems")
-OrderListLocation = "orderList.json"
+OrderListLocation = "data/orderList.json"
+
+def modifyOrderItemQty(id, qty):
+    activeOrder = Orders.getActiveOrder()
+    print(f"{activeOrder._orderNumber} : {id} -> {qty}")
+    orderItem: OrderItem = activeOrder.getOrderItemById(id)
+    quantity = orderItem.getQuantity()
+    quantity = int(quantity) + qty
+    orderItem.setQuantity(quantity=quantity)
+
+
 
 class OrderItem:
     _id = 0
@@ -51,7 +61,7 @@ class OrderItem:
     
     def setQuantity(self, quantity):
         self._quantity = quantity
-    
+
     def createOrderItem(menuItem, quantity):
         logger.info("Creating OrderItem")
         if menuItem == None or quantity == None:
@@ -65,7 +75,21 @@ class OrderItem:
             "name": self.getName(),
             "description": self.getDescription(),
             "price": self.getPrice(),
-            "quantity": self.getQuantity()
+            "-": {
+                "name": "-",
+                "width": 10,
+                "action": modifyOrderItemQty,
+                "id": self.getId(),
+                "qty": -1
+            },
+            "quantity": self.getQuantity(),
+            "+": {
+                "name": "+",
+                "width": 10,
+                "action": modifyOrderItemQty,
+                "id": self.getId(),
+                "qty": 1
+            }
         }
 
 class Order:
@@ -96,6 +120,11 @@ class Order:
         for orderItem in self._orderItems:
             orderItemsJsonData.append(orderItem.getOrderItemInJsonFormat())
         return orderItemsJsonData
+    
+    def getOrderItemById(self, id):
+        for orderItem in self._orderItems:
+            if orderItem.getId() == id:
+                return orderItem
     
 class Orders:
     _orders = []

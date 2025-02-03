@@ -66,7 +66,7 @@ class MenuScreen:
             saveMenuCardBtn.grid(row=4, column=2, sticky="ew", padx=20, pady=20)
 
             tableOptions = {
-                "expandColNumber": 2
+                "rowGrid": 5
             }
             renderTable(self.menuScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), tableOptions)
 
@@ -80,6 +80,7 @@ class MenuScreen:
         menuCard.addMenuItem(menuItem)
         self.clearEntryBox()
         logger.info("added menu item")
+        self.menuItemScreen()
 
 
     def clearEntryBox(self):
