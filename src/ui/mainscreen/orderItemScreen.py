@@ -64,10 +64,10 @@ class OrderScreen:
         tableOptions = {
             'rowGrid': 2
         }
-        renderTable(self.orderScreen, order.getOrderItemsInArray(), tableOptions)
+        renderTable(self, self.orderScreen, order.getOrderItemsInArray(), tableOptions)
 
         # # Row 4 - Menu Table
-        renderTable(self.orderScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), {'rowGrid': 4 })
+        renderTable(self, self.orderScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), {'rowGrid': 4 })
         
         # Row 5 - Menu Item Choice
         menuChoicesRow = ctk.CTkFrame(self.orderScreen, fg_color="#003166")

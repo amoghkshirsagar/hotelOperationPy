@@ -68,7 +68,7 @@ class MenuScreen:
             tableOptions = {
                 "rowGrid": 5
             }
-            renderTable(self.menuScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), tableOptions)
+            renderTable(self, self.menuScreen, MenuCard.getMenuItemsInJsonFormat(menuCard), tableOptions)
 
     def addMenuItem(self):
         # Create and add new menu item from input fields

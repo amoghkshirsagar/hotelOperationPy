@@ -29,9 +29,6 @@ def addAppContent(app: CTkFrame):
     button2: CTkButton = ctk.CTkButton(frame1, text="Order Options", command=mainScreen.orderScreen)
     button2.grid(row=1,sticky="ew")
 
-    button3: CTkButton = ctk.CTkButton(frame1, text="button3")
-    button3.grid(row=2, sticky="new", pady=20)
-
     # frame2: CTkFrame = ctk.CTkFrame(appContent, fg_color="black")
     # frame2.grid(row=0, column=1, sticky="NSEW")
 
